@@ -1,0 +1,9 @@
+<p>comment works!</p>
+<textarea ng-model= "comment"></textarea>
+<br/>
+<br/>
+<button (click) ="post()" >comment</button>
+<hr>
+<div *ngFor="let comments of postComment">
+    <p>{{comments}}</p>
+</div>
